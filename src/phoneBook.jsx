@@ -1,5 +1,6 @@
+import { Route, Routes } from 'react-router-dom';
 import styles from './app.module.css';
-import { Header } from './components';
+import { Content, Header, TablePhoneBook } from './components';
 export const PhoneBook = () => {
 	return (
 		// <div className={styles.app}>
@@ -7,6 +8,10 @@ export const PhoneBook = () => {
 		// </div>
 		<div>
 			<Header />
+			<Content />
+			<Routes>
+				<Route path="/login" element={<TablePhoneBook />} />
+			</Routes>
 		</div>
 	);
 };
