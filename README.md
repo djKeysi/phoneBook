@@ -8,8 +8,8 @@ git checkout -b new-branch - Создать новую ветку и сразу 
 
 Установка пакетов:
 npm i -g json-server
-npm i styled-components prop-types react-hook-form yup react-router-dom redux redux-thunk react-redux
-
+npm i sass prop-types react-hook-form yup react-router-dom redux redux-thunk react-redux
+//styled-components неиспользовали npm rm styled-components
 Структура БД:
 
 1. Главная таблица: id,fk*fio, fk_jobTitle, fk_division, fk* internalPhone, fk* workPhone, fk* Email1, fk\_ Email2, mobilePhone

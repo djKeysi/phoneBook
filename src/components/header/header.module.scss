@@ -1,0 +1,67 @@
+.header {
+	// display: flex;
+	// justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	//background-color: rgb(4, 4, 99);
+	background-color: #101010;
+	height: 70px;
+	// width: 1000%;
+}
+h1 {
+	// display: flex;
+	// justify-content: center;
+
+	color: white;
+	margin: 0;
+	text-align: left;
+	padding: 0 0 0 80px;
+	// vertical-align: top;
+	line-height: 60px;
+
+	// margin: 0px auto;
+	// padding: auto 20px;
+}
+// i {
+// 	color: #9d9d9d;
+// 	font-size: 19em;
+// 	size: 500px;
+// 	width: 100px;
+// 	height: 100px;
+// 	// margin: 0;
+// 	// height: 50px;
+// }
+i:before {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: #9d9d9d;
+	padding: 15px 10px 0 0;
+	font-size: 35px;
+}
+div {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: #9d9d9d;
+	padding: 18px 45px 0 0;
+}
+// header {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   background-color: #333; /* Цвет фона */
+//   color: white; /* Цвет текста */
+//   padding: 10px; /* Отступы */
+//   z-index: 1000; /* Для обеспечения отображения над других элементов */
+// }
+
+// header h1 {
+//   margin: 0;
+//   text-align: center;
+//   vertical-align: middle;
+//   line-height: 30px; /* Высота строки */
+// }
